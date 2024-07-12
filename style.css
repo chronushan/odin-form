@@ -64,19 +64,25 @@ a {
 	color: white;
 }
 
-.right-div > p {
+.right-div > p,
+.right-div > div > p:first-child {
 	font-weight: 900;
 	font-size: 1.2em;
 }
 
-.form {
+.right-div > .form {
 	box-shadow: 10px 15px 15px -15px rgba(0, 0, 0, 0.3);
 	display: flex;
 	flex-wrap: wrap;
 }
 
+.right-div > div > :last-child {
+	font-size: 0.8em;
+}
+
 .right-div a {
 	color: #596d48;
+	font-weight: 900;
 }
 
 form button {
