@@ -3,6 +3,11 @@
 	src: url(Norse-Bold.otf);
 }
 
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
 .outer {
 	display: flex;
 	margin: 0 7%;
@@ -14,14 +19,39 @@
 	background-repeat: no-repeat;
 	width: 40%;
 	height: 100vh;
+	position: relative;
 }
 
 .opaque-background {
 	background-color: rgba(0, 0, 0, 0.6);
 	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+	top: 25%;
+}
+
+.opaque-background p {
+	color: white;
+	font-family: "Norse";
+	font-size: 3em;
+	line-height: 2;
+}
+
+.left-div > p {
+	color: white;
+	font-size: 0.85em;
+	text-align: center;
+	position: relative;
+	top: 95vh;
 }
 
 .right-div {
 	background-color: burlywood;
 	width: 60%;
+}
+
+a {
+	color: white;
 }
