@@ -2,3 +2,26 @@
 	font-family: "Norse";
 	src: url(Norse-Bold.otf);
 }
+
+.outer {
+	display: flex;
+	margin: 0 7%;
+}
+
+.left-div {
+	background-image: url(leaf.avif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 40%;
+	height: 100vh;
+}
+
+.opaque-background {
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+}
+
+.right-div {
+	background-color: burlywood;
+	width: 60%;
+}
