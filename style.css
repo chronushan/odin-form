@@ -8,6 +8,10 @@
 	padding: 0px;
 }
 
+body {
+	background-color: black;
+}
+
 .outer {
 	display: flex;
 	margin: 0 7%;
@@ -17,7 +21,7 @@
 	background-image: url(leaf.avif);
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 40%;
+	width: 50%;
 	height: 100vh;
 	position: relative;
 }
@@ -48,10 +52,37 @@
 }
 
 .right-div {
-	background-color: burlywood;
-	width: 60%;
+	background-color: white;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 200px;
 }
 
 a {
 	color: white;
+}
+
+.right-div > p {
+	font-weight: 900;
+	font-size: 1.2em;
+}
+
+.form {
+	box-shadow: 10px 15px 15px -15px rgba(0, 0, 0, 0.3);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.right-div a {
+	color: #596d48;
+}
+
+form button {
+	color: white;
+	background-color: #596d48;
+	padding: 7px 30px;
+	border-radius: 5px;
+	font-weight: bold;
 }
